@@ -485,7 +485,7 @@ void processEvents( int windowsEventsOnly )
 			}
 #endif
 
-			if( e.key.keysym.sym == SDLK_PAUSE ) {
+			/*if( e.key.keysym.sym == SDLK_PAUSE ) {
 				// pause the game
 				paused = !paused;
 			}
@@ -521,7 +521,7 @@ void processEvents( int windowsEventsOnly )
 			if( ( pressedFKey != -1 ) && ( pressedFKey < ARRAY_SIZE( resolutions ) ) ) {
 				// switch resolution
 				SDL_SetWindowSize( window, resolutions[pressedFKey].width, resolutions[pressedFKey].height );
-			}
+			}//*/
 		}
 #endif
 
