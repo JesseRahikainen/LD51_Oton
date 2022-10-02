@@ -3,6 +3,6 @@
 
 #include "gameState.h"
 
-GameState otonMainScreenState;
+extern GameState otonMainScreenState;
 
 #endif // inclusion guard
